@@ -53,7 +53,7 @@ nav a.active {
 /* Hero Section */
 .hero {
   position: relative;
-  background: url('hero-bg.jpg.png') center center / cover no-repeat;
+  background: url('hero-image.png') center center / cover no-repeat;
   text-align: center;
   padding: 8rem 2rem 6rem;
 }
@@ -137,4 +137,15 @@ footer {
   padding: 2rem 1rem;
   border-top: 1px solid #e0c68d;
   font-size: 0.9rem;
+}
+
+/* Subpage Overrides - Move logo to top-left corner */
+.subpage header {
+  justify-content: flex-start; /* Align items to the left */
+  gap: 2rem; /* Add space between logo and nav */
+}
+
+.subpage header .logo {
+  margin-right: auto; /* Push nav to the right */
+  width: 150px; /* Maintain logo size */
 }
