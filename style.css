@@ -53,7 +53,7 @@ nav a.active {
 /* Hero Section */
 .hero {
   position: relative;
-  background: url('hero-image.png') center center / cover no-repeat;
+  background: url('hero-bg.jpg.png') center center / cover no-repeat;
   text-align: center;
   padding: 8rem 2rem 6rem;
 }
