@@ -241,3 +241,11 @@ footer {
   transform: translateY(-5px);
   border-color: #f6d76e;
 }
+.card {
+  background-color: #11253a;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
