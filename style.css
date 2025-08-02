@@ -162,3 +162,49 @@ footer {
   margin-right: auto;
   height: auto;
 }
+/* Contact Form Styling */
+.contact-form {
+  max-width: 600px;
+  margin: 3rem auto 0;
+  background-color: #1b2a3a;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(240, 230, 210, 0.1);
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #e0c68d;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #3a4b5c;
+  border-radius: 8px;
+  background-color: #0d1b2a;
+  color: #f0e6d2;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #f6d76e;
+  background-color: #122434;
+}
+
+.contact-form .button {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+}
